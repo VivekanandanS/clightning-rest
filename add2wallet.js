@@ -26,7 +26,9 @@ exports.transfer = async () => {
     var lightningd = coins['lightningd'];
 
     try {
-        await exec(`bitcoin-cli -testnet sendtoaddress ${lightningd} ${max_amount}`)
+        exec(`bitcoin-cli -testnet sendtoaddress ${lightningd} ${max_amount}`,(error,out,err)=>{
+            console.log(error,out,err)
+        })
     } catch (error) {
         throw error;
     }

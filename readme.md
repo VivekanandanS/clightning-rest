@@ -1,7 +1,7 @@
 ## Starting Bitcoin daemon
 bitcoind -testnet -daemon -rpcbind=0.0.0.0:0 -rpcpassword=vivekanandan13  -rpcport=8332 -rpcuser=vivek -server -rpcport=8332 -externalip=35.230.185.50 -listen
 
-## HELP
+### HELP
 bitcoin-cli -testnet  -rpcuser=vivek  -rpcpassword=vivekanandan13  -rpcport=8332 help
 
 ## Check for block
@@ -45,7 +45,7 @@ lightning-cli newaddr
 }
 ```
 
-# Basics of transaction
+## Basics of transaction
 > https://medium.com/@Jayvdb/setting-up-and-transacting-on-the-bitcoin-lightning-network-a9ada42ec305
 
 

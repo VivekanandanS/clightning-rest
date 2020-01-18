@@ -35,10 +35,10 @@ lightningd --daemon --network=testnet  --rpc-file ~/.lightning/lightning-rpc  --
 lightning-cli newaddr
 
 ## Lightning address
-{
-   "address": "tb1q22qpgr4ke949k7wx6vzdmaywj5dsc5jqs9w6pz",
-   "bech32": "tb1q22qpgr4ke949k7wx6vzdmaywj5dsc5jqs9w6pz"
-}
+>{
+>   "address": "tb1q22qpgr4ke949k7wx6vzdmaywj5dsc5jqs9w6pz",
+>   "bech32": "tb1q22qpgr4ke949k7wx6vzdmaywj5dsc5jqs9w6pz"
+>}
 
 ## Send coins from Bitcoin to Lightning wallet
 bitcoin-cli -testnet sendtoaddress tb1q22qpgr4ke949k7wx6vzdmaywj5dsc5jqs9w6pz 0.005

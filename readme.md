@@ -38,7 +38,8 @@ lightning-cli getinfo
 lightning-cli newaddr
 
 ## Lightning address
-```{
+```json
+{
    "address": "tb1q22qpgr4ke949k7wx6vzdmaywj5dsc5jqs9w6pz",
    "bech32": "tb1q22qpgr4ke949k7wx6vzdmaywj5dsc5jqs9w6pz"
 }```

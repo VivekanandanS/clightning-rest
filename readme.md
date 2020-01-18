@@ -42,7 +42,8 @@ lightning-cli newaddr
 {
    "address": "tb1q22qpgr4ke949k7wx6vzdmaywj5dsc5jqs9w6pz",
    "bech32": "tb1q22qpgr4ke949k7wx6vzdmaywj5dsc5jqs9w6pz"
-}```
+}
+```
 
 # Basics of transaction
 > https://medium.com/@Jayvdb/setting-up-and-transacting-on-the-bitcoin-lightning-network-a9ada42ec305

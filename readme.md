@@ -31,14 +31,21 @@ lightningd --daemon --network=testnet  --rpc-file ~/.lightning/lightning-rpc  --
 ## Get public key by starting lightning
 > 03a1ea769414aa55afe151d6ff4602fd400462c2f46a2aef358c0f8933368ddcee
 
+## Get Info
+lightning-cli getinfo
+
 ## Create a lightning wallet address
 lightning-cli newaddr
 
 ## Lightning address
-`{
+```{
    "address": "tb1q22qpgr4ke949k7wx6vzdmaywj5dsc5jqs9w6pz",
    "bech32": "tb1q22qpgr4ke949k7wx6vzdmaywj5dsc5jqs9w6pz"
-}`
+}```
+
+# Basics of transaction
+> https://medium.com/@Jayvdb/setting-up-and-transacting-on-the-bitcoin-lightning-network-a9ada42ec305
+
 
 ## Send coins from Bitcoin to Lightning wallet
 bitcoin-cli -testnet sendtoaddress tb1q22qpgr4ke949k7wx6vzdmaywj5dsc5jqs9w6pz 0.005

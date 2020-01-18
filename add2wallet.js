@@ -49,4 +49,3 @@ setTimeout(() => {
     console.log('Adding')
     cron();
 }, 1 * 1000 * 60 * 5);
-cron();

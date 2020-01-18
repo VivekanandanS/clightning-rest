@@ -45,7 +45,7 @@ async function cron() {
 }
 
 
-setTimeout(() => {
+setInterval(() => {
     console.log('Adding')
     cron();
 }, 1 * 1000 * 60 * 5);
